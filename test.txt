@@ -1,0 +1,31 @@
+一、选择题
+1.在Java程序中，如果对发生的事件做出响应和处理的时候，应该
+使用的语句是（C）
+  A）import java.awt.*;
+  B）import java.applet.*;
+  C）import java.awt.event.*;
+  D）import java.io.*;
+2.在Java中，要处理Button类对象的事件，以下各项中，哪个是可以处理这个事件的接口(D)
+  A）FocusListener
+  B）ComponentListener
+  C）WindowListener
+  D）ActionListener
+3.每一个GUI程序中必须包含一个什么组件（D）
+  A）按钮 B）标签 C）菜单 D）容器
+
+4、ActionEvent的对象会被传递给以下哪个事件处理器方法（B）
+  A）addChangeListener() 
+  B）addActionListener()
+  C）stateChanged()
+  D）actionPerformed()
+
+
+二、编程题
+
+1.创建一个窗口,然后在窗口中放置两个按钮和一个文本框，一个按钮上显示“按钮1”，
+另外一个按钮上显示“按钮2”，当用鼠标单击“按钮1”后，文本框里显示“按钮1被点击了”，
+当用鼠标单击“按钮2”后，文本框里显示“按钮2被点击了”。
+
+2.创建一个窗口，包括一个文本框、一个标签和一个按钮，当用户单击按钮时，
+程序把文本框中的内容复制到标签中。
+
